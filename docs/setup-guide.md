@@ -163,6 +163,7 @@ Now populate `rclone.conf` with:
 ```ini
 [nzbdav]
 type = webdav
+; For the URL, replace "nzbdav" with the name of the container if you did not use the default
 url = http://nzbdav:3000/
 vendor = other
 user = admin
